@@ -36,26 +36,8 @@ class Profile(models.Model):
         return profile
     
     
-class Comments(models.Model):
-    comment = models.CharField(max_length=100)
-    posted = models.DateTimeField(auto_now=True)
-    post = models.ForeignKey(Post,on_delete=models.CASCADE)
-    user = models.ForeignKey(User,on_delete=models.CASCADE)
-    
-    
-    def save_comment(self):
-        self.save()
-    
-    def delete_comments(self):
-        self.delete()
-        
-    @classmethod
-    def get_comment_by_image(cls,id):
-        comment = Comments.objects.filter(post__pk = id)
-        return 
-    
-    class Post(models.Model):
-        title = models.CharField(blank=False, max_length=500)
+class Post(models.Model):
+    title = models.CharField(blank=False, max_length=500)
     instagram = models.CharField(max_length=100, blank=True)
     description =models.TextField(max_length=500, blank=False)
     photo = models.ImageField(blank=False, upload_to='images/')
@@ -79,3 +61,21 @@ class Comments(models.Model):
 
     def save_post(self):
         self.save()
+    
+class Comments(models.Model):
+    comment = models.CharField(max_length=100)
+    posted = models.DateTimeField(auto_now=True)
+    post = models.ForeignKey(Post,on_delete=models.CASCADE)
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
+    
+    
+    def save_comment(self):
+        self.save()
+    
+    def delete_comments(self):
+        self.delete()
+        
+    @classmethod
+    def get_comment_by_image(cls,id):
+        comment = Comments.objects.filter(post__pk = id)
+        return comment
