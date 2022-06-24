@@ -239,6 +239,166 @@ li {
     text-shadow: 2px 2px black;
 }
 
+.ta:hover {
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+.in:hover {
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+.bra {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 40px;
+}
+
+.ed {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#nab {
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 20px;
+}
+
+#a {
+    color: #1C2833;
+}
+
+#t {
+    color: #641E16;
+}
+
+#r {
+    color: #145A32;
+}
+
+#s {
+    color: #1A5276;
+}
+
+.bottom {
+    padding-top: 40px;
+}
+
+.commo {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+}
+
+.com {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.use {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ny {
+    background-color: #D0D3D4;
+}
+
+.no {
+    font-family: 'Rajdhani', sans-serif;
+    font-style: italic;
+}
+
+.site {
+    color: black;
+    text-decoration: none;
+}
+
+.site:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.tal,
+.dai,
+.term {
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+}
+
+.an {
+    font-family: 'Scheherazade', serif;
+    font-size: 20px;
+}
+
+.copy {
+    font-family: 'Carrois Gothic', sans-serif;
+    padding-bottom: 20px;
+}
+
+.bot {
+    background-color: #95A5A6;
+}
+
+.word {
+    margin: 15px;
+}
+
+.miss {
+    background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("https://www.molotow.com/fileadmin/Dateien/_processed_/1/6/csm_Premium_1400x870_Corp_f9863bc249.jpg") center/cover no-repeat fixed;
+    min-height: 50vh;
+    padding: 15%;
+    color: white;
+}
+
+.info {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.abo {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.ace,
+.wit,
+.nsta {
+    color: black;
+    font-family: 'Scheherazade', serif;
+    font-size: 20px;
+}
+
+.mission,
+.vision,
+.acco {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pa1,
+.pa2,
+.pa3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+.test {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.tim {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sing {
+    font-size: 160%;
+}
 
 .jumbotron {
     background-color: #2ECC71;
