@@ -53,3 +53,29 @@ class Comments(models.Model):
     def get_comment_by_image(cls,id):
         comment = Comments.objects.filter(post__pk = id)
         return 
+    
+    class Post(models.Model):
+        title = models.CharField(blank=False, max_length=500)
+    instagram = models.CharField(max_length=100, blank=True)
+    description =models.TextField(max_length=500, blank=False)
+    photo = models.ImageField(blank=False, upload_to='images/')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="posts")
+    date = models.DateField(auto_now_add=True, blank=True)
+    
+    def __str__(self):
+        return f'{self.title}'
+
+    def delete_post(self):
+        self.delete()
+
+    @classmethod
+    def search_project(cls, title):
+        return cls.objects.filter(title__icontains=title).all()
+
+    @classmethod
+    def all_posts(cls):
+        posts = Post.objects.all()
+        return posts
+
+    def save_post(self):
+        self.save()
