@@ -36,3 +36,20 @@ class Profile(models.Model):
         return profile
     
     
+class Comments(models.Model):
+    comment = models.CharField(max_length=100)
+    posted = models.DateTimeField(auto_now=True)
+    post = models.ForeignKey(Post,on_delete=models.CASCADE)
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
+    
+    
+    def save_comment(self):
+        self.save()
+    
+    def delete_comments(self):
+        self.delete()
+        
+    @classmethod
+    def get_comment_by_image(cls,id):
+        comment = Comments.objects.filter(post__pk = id)
+        return 
