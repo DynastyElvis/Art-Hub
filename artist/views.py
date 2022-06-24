@@ -133,4 +133,3 @@ def newsletter(request):
     
 
 
-
