@@ -1,5 +1,5 @@
 .landing {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("https://www.gratefulgypsies.com/wp-content/uploads/2017/07/DSC08690-001.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("https://raw.githubusercontent.com/DynastyElvis/Art-Hub/master/media/images/art1.jpeg");
     background-size: cover;
 }
 
@@ -180,7 +180,7 @@ li {
 
 @media (pointer: coarse) and (hover: none) {
     .vida {
-        background: url(/artist/static/images/art1.jpeg) black no-repeat center center scroll;
+        background: url("https://raw.githubusercontent.com/DynastyElvis/Art-Hub/master/media/images/art1.jpeg") black no-repeat center center scroll;
     }
     .vida video {
         display: none;
