@@ -180,7 +180,7 @@ li {
 
 @media (pointer: coarse) and (hover: none) {
     .vida {
-        background: url("https://raw.githubusercontent.com/DynastyElvis/Art-Hub/master/media/images/art1.jpeg") black no-repeat center center scroll;
+        background: url("/artist/static/images/art.mp4") black no-repeat center center scroll;
     }
     .vida video {
         display: none;
