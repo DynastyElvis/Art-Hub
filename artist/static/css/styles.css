@@ -5,7 +5,7 @@
 
 .intro {
     padding: 25%;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 hr.style-three {
@@ -22,7 +22,7 @@ hr.style-three:before {
     height: 30px;
     margin-top: -31px;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(255, 255, 255);
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
@@ -59,7 +59,7 @@ hr.style-three:before {
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-    color: white;
+    color: rgb(90, 11, 11);
     text-decoration: none;
 }
 
@@ -136,7 +136,8 @@ li {
 }
 
 .bac {
-    background-color: #D0D3D4;
+    background-color: #ffffff;
+    /* background-image: url("/artist/static/images/art1.jpeg"); */
 }
 
 .vida {
@@ -188,16 +189,16 @@ li {
 }
 
 .bet {
-    font-family: 'Gupter', serif;
-    font-size: 70px;
+    font-family: 'Italianno';
+    font-size:120px;
     color: #ffffff;
-    font-weight: bolder;
-    text-shadow: 3px 3px #707B7C;
+    font-weight: lighter;
+    /* text-shadow: 3px 3px #ffffff; */
 }
 
 .para {
-    font-family: 'Baskervville', serif;
-    font-size: 20px;
+    font-family: 'Italianno';
+    font-size: 40px;
 }
 
 .icon {
@@ -338,7 +339,7 @@ li {
 }
 
 .bot {
-    background-color: #95A5A6;
+    background-color: #17e3f1;
 }
 
 .word {
