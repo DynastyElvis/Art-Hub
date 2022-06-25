@@ -147,7 +147,7 @@ li {
     overflow: hidden;
 }
 
-.vida video {
+/* .vida video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -160,7 +160,7 @@ li {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-}
+} */
 
 .vida .container {
     position: relative;
@@ -180,7 +180,7 @@ li {
 
 @media (pointer: coarse) and (hover: none) {
     .vida {
-        background: url("/artist/static/images/art.mp4") black no-repeat center center scroll;
+        background: url(/artist/static/images/art.mp4) black no-repeat center center scroll;
     }
     .vida video {
         display: none;
