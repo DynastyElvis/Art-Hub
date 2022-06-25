@@ -23,7 +23,7 @@ GITHUB - [ELVIS](https://github.com/DynastyElvis)
 ## Screenshots 
 ###### User HOMEPAGE
  
-<img src="https://raw.githubusercontent.com/DynastyElvis/The-Neighbourhood./master/static/images/Screenshot%20from%202022-06-20%2000-25-51.png">
+<img src="https://raw.githubusercontent.com/DynastyElvis/Art-Hub/master/media/Screenshot%20from%202022-06-25%2012-17-35.png">
  
 
  ###### Sign up page
