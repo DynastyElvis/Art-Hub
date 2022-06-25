@@ -16,6 +16,8 @@ GITHUB - [ELVIS](https://github.com/DynastyElvis)
 ##  Live Link  
  Click [View Site](https://elvis-arthub.herokuapp.com/)  to visit the site
 
+## Figma Design
+ Click [View Site](https://www.figma.com/file/MeHFr28dnI7gmZN5dLEKKB/Art-Hub-Design?node-id=0%3A1)  to visit the site
 
 [Go Back to the top](#Art-Hub)
 ## Screenshots 

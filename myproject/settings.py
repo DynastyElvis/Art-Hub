@@ -173,4 +173,4 @@ LOGOUT_REDIRECT_URL = '/'
 LOGIN_REDIRECT_URL = 'photos'
 
 # Configure Django App for Heroku.
-# django_heroku.settings(locals())
+django_heroku.settings(locals())
