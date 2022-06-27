@@ -26,8 +26,8 @@ GITHUB - [ELVIS](https://github.com/DynastyElvis)
 <img src="https://raw.githubusercontent.com/DynastyElvis/Art-Hub/master/media/Screenshot%20from%202022-06-25%2012-17-35.png">
  
 
- ###### Sign up page
- <img src="https://raw.githubusercontent.com/DynastyElvis/The-Neighbourhood./master/static/images/Screenshot%20from%202022-06-20%2000-26-09.png">
+ ###### Art Gallery
+ <img src="https://raw.githubusercontent.com/DynastyElvis/Art-Hub/master/media/Screenshot%20from%202022-06-25%2012-19-22.png">
 
 [Go Back to the top](#Art-Hub)
 
